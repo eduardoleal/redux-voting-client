@@ -8,7 +8,7 @@ import {
 import Vote from '../../src/components/Vote';
 import {expect} from 'chai';
 
-describe('VoteComponent', () => {
+describe('Component / Vote', () => {
     it('renders a button', () => {
         const component = renderIntoDocument(
             <Vote

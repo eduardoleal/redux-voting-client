@@ -9,13 +9,11 @@ import {
     Simulate
 } from 'react-addons-test-utils';
 import {List} from 'immutable';
-import Voting from '../../src/containers/Voting';
+import {Voting} from '../../src/containers/Voting';
 import Vote from '../../src/components/Vote';
 import Winner from '../../src/components/Winner';
 
-
-
-describe('Voting', () => {
+describe('Container / Voting', () => {
     it('renders vote buttons', () => {
         const pair = ['Trainspotting', '28 Days Later'];
         const component = renderIntoDocument(
